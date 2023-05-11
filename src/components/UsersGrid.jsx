@@ -31,7 +31,8 @@ function FetchUsers() {
                             return (
                                 <SingleRender
                                     key={user.id}
-                                    {...user} />
+                                    {...user}
+                                />
                             );
                         })}
                     </div>
